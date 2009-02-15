@@ -46,7 +46,7 @@ class PHPSTLLoopIterator
 
     public function isFirst()
     {
-        return !$this->count;
+        return !$this->index;
     }
 
     public function isLast()
