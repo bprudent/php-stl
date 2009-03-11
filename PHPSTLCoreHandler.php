@@ -533,6 +533,7 @@ class PHPSTLCoreHandler extends PHPSTLNSHandler
      *                 "money" => formats as us money,
      *                 "boolean" => formats as Yes or No
      *                 "date:xxx" => formats as date, where xxx is the format string used by date()
+     *                 "sprintf:xxx" => formats according to the sprintf specification, where xxx is the format string used by sprintf()     
      */
     public function handleElementOut(DOMElement $element)
     {
